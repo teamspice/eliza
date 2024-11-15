@@ -32,7 +32,9 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.6.0",
     "@docusaurus/types": "3.6.0",
+    "@types/node": "22.8.4",
     "docusaurus-plugin-typedoc": "^1.0.5",
+    "tsup": "^8.3.5",
     "typedoc": "^0.26.11",
     "typedoc-plugin-markdown": "4.2.9"
   },

@@ -59,6 +59,7 @@
         "youtube-dl-exec": "3.0.10"
     },
     "devDependencies": {
+        "@types/node": "22.8.4",
         "tsup": "^8.3.5"
     },
     "scripts": {
@@ -67,8 +68,8 @@
         "postinstall": "npx playwright install-deps && npx playwright install"
     },
     "peerDependencies": {
-        "whatwg-url": "7.1.0",
-        "onnxruntime-node": "^1.20.0"
+        "onnxruntime-node": "^1.20.0",
+        "whatwg-url": "7.1.0"
     },
     "trustedDependencies": {
         "onnxruntime-node": "^1.20.0",

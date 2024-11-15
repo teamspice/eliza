@@ -5,13 +5,16 @@
     "type": "module",
     "types": "dist/index.d.ts",
     "dependencies": {
-        "@ai16z/eliza": "workspace:*",
-        "tsup": "^8.3.5"
+        "@ai16z/eliza": "workspace:*"
     },
     "scripts": {
         "build": "tsup --format esm --dts"
     },
     "peerDependencies": {
         "whatwg-url": "7.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "22.8.4",
+        "tsup": "^8.3.5"
     }
 }

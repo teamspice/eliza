@@ -5,7 +5,7 @@
         "module": "ESNext",
         "lib": ["ESNext", "dom"],
         "moduleResolution": "Bundler",
-        "outDir": "./dist",
+        "outDir": "./dist/types",
         "rootDir": "./src",
         "strict": false,
         "esModuleInterop": true,

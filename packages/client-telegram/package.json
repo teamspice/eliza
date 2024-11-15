@@ -4,12 +4,13 @@
     "main": "src/index.ts",
     "type": "module",
     "dependencies": {
-        "@telegraf/types": "7.1.0",
         "@ai16z/eliza": "workspace:*",
         "@ai16z/plugin-node": "workspace:*",
+        "@telegraf/types": "7.1.0",
         "telegraf": "4.16.3"
     },
     "devDependencies": {
+        "@types/node": "22.8.4",
         "tsup": "^8.3.5"
     },
     "scripts": {
