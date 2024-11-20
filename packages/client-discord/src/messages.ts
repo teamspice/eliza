@@ -896,6 +896,11 @@ export class MessageManager {
             return;
         }
 
+        // Add lowercase transformation here
+        if (response.text) {
+            response.text = response.text.toLowerCase();
+        }
+
         await this.runtime.databaseAdapter.log({
             body: { message, context, response },
             userId: userId,
